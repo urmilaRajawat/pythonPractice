@@ -1,4 +1,4 @@
-Q. Find the largest among three numbers.
+Q.1 Find the largest among three numbers.
 
 
 a = int(input("enter first number:"))
@@ -20,4 +20,22 @@ enter first number:100
 enter second number:1000
 enter third number:100000
 100000
+​
+
+Q2. Reversing a list
+
+#using slicing technique
+def reverse():
+    newList = list[ : :-1]
+    return newList
+​
+list = [3, 5, 6, 0, 8]
+print(reverse())
+
+
+
+#using reverse function
+list = [3, 5, 6, 0, 8]
+list.reverse()
+print(list)
 ​
