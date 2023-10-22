@@ -1,0 +1,23 @@
+Q. Find the largest among three numbers.
+
+
+a = int(input("enter first number:"))
+b = int(input("enter second number:"))
+c = int(input("enter third number:"))
+max = a
+​
+if max < b:
+    max = b
+​
+if max < c:
+    max = c
+​
+print(max)
+​
+
+#output
+enter first number:100
+enter second number:1000
+enter third number:100000
+100000
+​
