@@ -1,0 +1,32 @@
+Q1.Converting celsius value to fahrenheit
+
+
+temprature = float(input("enter your temprature in celsius"))
+fahrenheit = temprature*1.8 + 32
+
+print("temprature in fahrenheit",fahrenheit)
+
+
+Q2. Swapping 2 variables using third variable
+
+a = int(input("enter first number"))
+b = int(input("enter second number"))
+
+temp = a
+a = b
+b = temp
+
+
+print("first number is:", a)
+print("second number is:",b)
+
+Q3. Adding digits of the number entered by user
+
+num = int(input("enter three digit number"))
+
+a = num % 10           #564 (564 % 10 = 4)
+num = num // 10        #564 // 10 = 56 
+b = num % 10           #56 % 10 = 6
+c = num // 10          #56 // 10 = 5
+
+print(a + b + c)
