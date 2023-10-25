@@ -1,0 +1,39 @@
+Q1. reversing the digits of a number
+App1.
+#using string slicing
+num = int(input())
+​
+print(str(num)[::-1])
+
+
+
+App2.
+#using modulus and floor division
+num = i modulus and floor division
+num = int(input("enter four digit number:"))
+a = num % 10               #3456 % 10 = 6
+num = num // 10             #3456 // 10 = 345
+​
+b = num % 10               #345 % 10 = 5
+num = num // 10            #345 // 10 = 34
+​
+c = num % 10               #34 % 10 = 4
+d = num // 10              #34 // 10 = 3
+​
+reverseNum = 1000*a + 100*b + 10*c + d
+​
+print(reverseNum)
+​
+
+Q2.check if the given three angles can form a triangle or not
+Sol.
+a = int(input("enter first angle"))
+b = int(input("enter second angle"))
+c = int(input("enter third angle"))
+​
+​
+if a + b + c == 180 and a != 0 and b != 0 and c != 0:
+    print("possible")
+else:
+    print("not possible")
+
