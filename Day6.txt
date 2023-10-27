@@ -1,0 +1,29 @@
+# **Kwargs
+#To accept Variable Length of Keyword Arguments, 
+i.e., To create functions that take n number of Keyword arguments we use
+ # **kwargs (prefix a parameter name with a double asterisk ** ).
+
+Eg.1
+def display(**kwargs):
+    for i in kwargs.values():
+        print(i)
+
+display(emp="Kelly", salary=9000)
+
+
+Eg.2
+def displayPerson(**kwargs):
+    print(kwargs)
+displayPerson(name="Emma", age=25)
+
+
+
+
+# *args
+#we use *args to get the variable number of positional arguments.
+
+Eg.1
+
+def print_numbers(*args):
+    print(args)
+print_numbers(5, 23, 45, 78)   
