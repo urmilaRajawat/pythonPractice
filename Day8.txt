@@ -1,0 +1,61 @@
+
+#Exercise1: Print the sum of the current number and the previous number
+numbers = range(0,10)
+
+for i in numbers: 
+    print("Current Number",i, "Previous Number", i-1, "Sum:",i+i-1)
+
+
+
+
+#Exercise 2: Print characters from a string that are present at an even index number
+Approach1.
+str = input()
+print("original string is :",str )
+print("Printing only even index chars",str[1::2])
+
+
+Approach2:
+str = input()
+n = len(str)
+
+for i in range(0, n):
+    if i = 0 or i % 2 != 0:
+        print(str[i])
+        
+Approach3:        
+str = input()
+n = len(str)
+
+for i in range(0, n, 2):
+    print(str[i])
+    
+    
+    
+ #Exercise3: Remove first n characters from a string
+Approach1:  
+str = input("enter string:",)
+n = int(input("Enter no. of characters you want to remove:",))
+
+new_string = str[n:]
+print(new_string)
+
+
+
+Approach2:
+str = input("enter string:",)
+n = int(input("Enter no. of characters you want to remove:",))
+
+def removeChar(n):
+    string = str[n:]
+    return string
+
+newString = removeChar(n)
+print(newString)
+
+
+
+
+    
+    
+    
